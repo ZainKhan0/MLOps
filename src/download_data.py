@@ -12,6 +12,7 @@ def download_data(ticker, start_date, end_date):
     data.to_csv("data.csv")
     print("Data downloaded successfully and saved to data.csv")
 
+#Calling the main function............
 download_data(ticker, start_date, end_date)
 
 
